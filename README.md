@@ -5,7 +5,7 @@ Utilizes the Fortnite Tracker API https://fortnitetracker.com/site-api
 The file blizabelle.py is the executable file to run the bot (with a version of Python installed).
 
 You will need to set up a bot on the Discord Developer Portal here: https://discord.com/developers/docs/intro
-And place the bot token in blizabelle.py on line 28.
+and place the bot token in blizabelle.py on line 28.
 
 You will also need to get your own private API key from https://fortnitetracker.com/site-api 
 You will need to paste that key in both the leaderboards.py file at line 27, and in weekly_leaderboards.py at line 48. 
