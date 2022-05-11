@@ -1,5 +1,5 @@
 # discord-stat-tracker
-## Framework for a Discord bot to fetch Fortnite stats for customized users and display them in a given channel.
+## Framework for a Discord bot to fetch Fortnite stats for customized users and display them in a given Discord channel.
 ### Utilizes the Fortnite Tracker API https://fortnitetracker.com/site-api
 
 The file blizabelle.py is the executable file to run the bot (with a version of Python installed).
