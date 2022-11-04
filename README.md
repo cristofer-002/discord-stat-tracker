@@ -33,7 +33,7 @@ Finally, you will need to populate **users.json** with your player data. The for
 where "platform" can be:
  ```
     kbm (for PC players)
-    gamepad (for console platers)
+    gamepad (for console players)
     touch (for mobile players, which I'm not sure even exists anymore?)
  ```
 
