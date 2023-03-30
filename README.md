@@ -52,7 +52,7 @@ After that you're good to go! The bot just needs run from the console.
 There are currently commands for displaying individual user stats:
 ```
     Lifetime stats: -stats 
-    Solo stats: stats1 
+    Solo stats: -stats1 
     Duos stats: -stats2 
     Trios stats: -stats3 
     Squads stats: -stats4

@@ -4,21 +4,24 @@ import asyncio
 import math
 import operator
 import datetime 
+from datetime import date, timedelta
 
 
 '''
 This file contains the function for displaying a weekly leaderboard. 
-A dynamic calendar has not been implemented yet, so currently the date range must be manually entered
-into the variables START_DATE and END_DATE.
+
+A dynamic calendar chooses the current week, ranging from Sunday - Saturday.
 
 The <mode> variable here can either be:
     0 -> Debug mode (shows long-form data)
     1 -> Regular mode (shows cleaner, relevant data)
 '''
 
-# Set dates for weekly leaderboard
-START_DATE = "2022-05-08"
-END_DATE = "2022-05-14"
+today = date.today()
+
+# Gets dates for weekly leaderboard
+START_DATE = str(today - timedelta(days=(today.weekday()+1)))
+END_DATE = str(START_DATE + timedelta(days=6))
 
 # Varibales for displaying start and stop dates later
 s = str(START_DATE.split("-")[1]) + "-" + str(START_DATE.split("-")[2])
