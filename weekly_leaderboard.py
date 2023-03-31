@@ -43,10 +43,7 @@ f = open("users.json")
 users = json.load(f)
 f.close()
 
-users["cldfire"] = "pc/cldfiɍe"
 
-
-# API key
 # Get your own private API key from: https://fortnitetracker.com/site-api
 custom_header = {"TRN-Api-Key" : "PASTE-THAT-KEY-HERE"}
         

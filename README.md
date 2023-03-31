@@ -15,10 +15,16 @@ and place the bot token in **blizabelle.py** on line 28.
 You will also need to follow the instructions to get your own private API key from the **[Fortnite Tracker](https://fortnitetracker.com/site-api)** site. 
 After that, you will need to paste that key in both the **leaderboards.py** file at line 27, and in **weekly_leaderboards.py** at line 48. 
 ```
+# In functions.py
+...
+16  custom_header = {"TRN-Api-Key": "PASTE-THAT-KEY-HERE"}
+...
+
 # In leaderboards.py
 ...
 27  custom_header = {"TRN-Api-Key" : "PASTE-THAT-KEY-HERE"}
 ...
+
 
 # In weekly_leaderboard.py
 ...

@@ -13,7 +13,7 @@ The modes are:
 '''
 
 def get_stats(user_info, mode):
-    custom_header = {"TRN-Api-Key" : "a48c9332-6a28-42d6-b687-00df5313ca01"}
+    custom_header = {"TRN-Api-Key" : "PASTE-THAT-KEY-HERE"}
     url = "https://api.fortnitetracker.com/v1/profile/" + user_info
 
     # Send request
